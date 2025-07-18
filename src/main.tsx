@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import ReactDOM from 'react-dom/client';
 import { Camera, Plus, Trash2, ShoppingCart, ChefHat, Edit3, Check, X } from 'lucide-react';
 
 const FoodWasteApp = () => {
