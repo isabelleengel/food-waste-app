@@ -1,0 +1,18 @@
+{
+    "builds": [
+      {
+        "src": "food-waste-app.tsx",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/food-waste-app.tsx"
+      }
+    ]
+  }
+  
