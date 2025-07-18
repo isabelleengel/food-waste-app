@@ -1,6 +1,7 @@
 {
   "scripts": {
-  "build": "vite build"
+  "build": "vite build",
+  "dev": "vite"
 },
   "devDependencies": {
     "vite": "^7.0.5"
