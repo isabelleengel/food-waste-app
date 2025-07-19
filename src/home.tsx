@@ -178,9 +178,10 @@ Please add two return lines between each step of the output.`;
             <button
               onClick={() =>
                 navigate("/grocery-list", {
-                  state: {
-                    missingIngredients: getMissingIngredients(),
-                  },
+                    state: {
+                         ingredients, // user's original ingredients
+                         recipe,      // full recipe text from Gemini
+  },
                 })
               }
               className="px-6 py-3 font-semibold rounded bg-yellow-500 hover:bg-yellow-600 text-white"
